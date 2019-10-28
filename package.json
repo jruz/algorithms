@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
+    "lint:prettier": "prettier \"**/*.{ts,tsx,js,json,yaml,yml,md,scss,css,html}\" -l",
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
@@ -15,7 +16,7 @@
     "@babel/preset-env": "^7.1.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
-    "babel-jest": "^23.6.0",
+    "babel-jest": "^24.9.0",
     "babel-preset-env": "^1.7.0",
     "big-integer": "^1.6.36",
     "eslint": "^5.8.0",
@@ -24,8 +25,8 @@
     "eslint-plugin-jest": "^21.26.2",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1",
-    "jest": "^23.6.0",
+    "jest": "^24.9.0",
     "prettier": "^1.14.3",
-    "regenerator-runtime": "^0.12.1"
+    "regenerator-runtime": "^0.13.3"
   }
 }
