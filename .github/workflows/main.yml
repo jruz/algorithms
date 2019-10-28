@@ -13,5 +13,6 @@ jobs:
           node-version: '10.x'
       - run: yarn audit
       - run: yarn install
-      - run: yarn lint
+      - run: yarn lint:js
       - run: yarn lint:prettier
+      - run: yarn test
