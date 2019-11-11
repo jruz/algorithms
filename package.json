@@ -22,7 +22,7 @@
     "babel-eslint": "^10.0.1",
     "babel-jest": "^24.9.0",
     "babel-preset-env": "^1.7.0",
-    "big-integer": "^1.6.36",
+    "big-integer": "^1.6.48",
     "eslint": "^5.8.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^6.5.0",
